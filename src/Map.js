@@ -5,7 +5,7 @@ import {loadModules} from 'esri-loader';
  const Map = () => {
 
     const MapEl = useRef(null);
-    console.log(MapEl);
+    // console.log(MapEl); // For debugging purpose
 
     useEffect(() => {
         let view;
