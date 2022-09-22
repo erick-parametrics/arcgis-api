@@ -2,7 +2,7 @@ import React, {useRef, useEffect} from 'react';
 import {loadModules} from 'esri-loader';
 
 
- function Map () {
+ const Map = () => {
 
     const MapEl = useRef(null);
     console.log(MapEl);
